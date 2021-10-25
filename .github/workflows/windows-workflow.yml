@@ -2,9 +2,9 @@ name: 😍 Windows
 
 on:
   push:
-    branches: [ master, dev, physics ]
+    branches: [ master-linux, dev-linux, physics-linux ]
   pull_request:
-    branches: [ master, dev, physics ]
+    branches: [ master-linux, dev-linux, physics-linux ]
 env:
   BUILD_CONFIGURATION: Release
 
